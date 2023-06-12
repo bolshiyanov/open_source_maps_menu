@@ -1,0 +1,20 @@
+.abouttext {
+    padding: 6px 12px 6px;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+  
+    .li {
+      overflow-wrap: break-word;
+      
+     }
+     a {
+      word-break: break-all;
+      color: blue;
+    } 
+    b {
+      word-break: break-all;
+    } 
+  }
+
+
+  

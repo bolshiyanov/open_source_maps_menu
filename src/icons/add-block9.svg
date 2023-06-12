@@ -1,0 +1,55 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="130" height="130" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_2" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" fill="#000000" stroke-width="1.5" x="105.499983" y="89.15099" width="13.666656" height="20.666706" id="svg_12"/>
+  <line fill="none" stroke="#000" stroke-opacity="null" x1="148.666625" y1="104.151019" x2="148.666625" y2="103.817686" id="svg_19" stroke-linejoin="null" stroke-linecap="null"/>
+  <defs>
+   <style>.cls-1{fill:none;}</style>
+  </defs>
+  <rect stroke="#000" fill="#000000" stroke-width="1.5" x="8.666694" y="108.151005" width="110.666612" height="6.33333" id="svg_33" rx="3"/>
+  <g id="svg_31">
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_9">
+    <g id="svg_10">
+     <polygon id="svg_13" fill="#030104" points="12,6.287 12,9.714 16,12 16,4   "/>
+     <path id="svg_14" fill="#030104" d="m10,4l-9,0c-0.553,0 -1,0.447 -1,1l0,6c0,0.553 0.447,1 1,1l9,0c0.553,0 1,-0.447 1,-1l0,-1l0,-0.857l0,-2.286l0,-0.857l0,-1c0,-0.552 -0.447,-1 -1,-1z"/>
+    </g>
+   </g>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_15"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_16"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_17"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_18"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_20"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_21"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_22"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_23"/>
+   <g id="svg_24"/>
+   <g id="svg_25"/>
+   <g transform="matrix(64.00015258798157,0,0,64.00015258798157,0,0) " id="svg_26"/>
+   <g id="svg_27"/>
+   <g id="svg_28"/>
+   <g id="svg_29"/>
+   <g id="svg_30"/>
+  </g>
+  <rect stroke="#000" fill="#000000" stroke-width="1.5" x="8.333362" y="85.817694" width="110.666612" height="6.33333" id="svg_57" rx="3"/>
+  <rect stroke="#000" fill="#000000" stroke-width="1.5" x="8.500091" y="89.484323" width="15.999986" height="20.666706" id="svg_58"/>
+  <rect stroke="#000" fill="#000000" stroke-width="1.5" x="11.833355" y="89.151024" width="104.333287" height="6.33333" id="svg_59" rx="3"/>
+  <rect stroke="#000" fill="#000000" stroke-width="1.5" x="10.333358" y="104.48434" width="107.333279" height="6.33333" id="svg_60" rx="3"/>
+  <defs>
+   <style>.cls-1{fill:#101820;}</style>
+  </defs>
+  <g stroke="null" id="svg_68">
+   <g stroke="null" transform="matrix(2.569497004338025,0,0,2.3333872700164155,143.9466550965892,198.5535769846049) " id="svg_64">
+    <path stroke="null" id="svg_66" d="m-31.113737,-64.52144a8,8 0 1 1 8,-8a8,8 0 0 1 -8,8zm0,-14a6,6 0 1 0 6,6a6,6 0 0 0 -6,-6z" class="cls-1"/>
+    <path stroke="null" id="svg_67" d="m-24.113737,-50.52144l-14,0a5,5 0 0 1 -5,-5l0,-4a1,1 0 0 1 0.49,-0.86l5,-3a1,1 0 0 1 1,1.72l-4.49,2.71l0,3.43a3,3 0 0 0 3,3l14,0a3,3 0 0 0 3,-3l0,-3.43l-4.51,-2.71a1,1 0 1 1 1,-1.72l5,3a1,1 0 0 1 0.51,0.86l0,4a5,5 0 0 1 -5,5z" class="cls-1"/>
+   </g>
+  </g>
+ </g>
+</svg>

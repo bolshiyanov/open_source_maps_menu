@@ -1,0 +1,146 @@
+.stories-theme2 {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  
+  
+  
+  &__button {
+    &.tech-button {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row nowrap;
+      width: calc(100% - 24px);
+      
+  
+      .icon {
+        font-size: 36px;
+        margin-right: 24px;
+      }
+    }
+  }
+  
+  .stories-theme2-picker {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 16px;
+    
+    &__empty {
+
+      .stories-theme2-picker-item-flexbox {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        
+
+        &__icon {
+          position: absolute;
+          top: 170px;
+          left: 95px;
+          color: #fff;
+          cursor: pointer;
+        }
+
+        &__title {
+          text-align: left;
+          width: 200px;
+          height: 80px;
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+          border: 0;
+          border-top-right-radius: 0;
+          border-top-left-radius: 0;
+          font-size: 20px;
+          font-family: 'Russo One', sans-serif;
+          line-height: 1;
+          white-space: pre-line;
+          padding: 10px;
+          position: absolute;
+          bottom: 0;
+        }
+
+        &__box {
+          width: 100%;
+          height: 300px;
+          border: 1px solid rgba(0, 0, 0, .2);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+          border-radius: 15px;
+
+          background: {
+              size: cover;
+              repeat: no-repeat;
+              position: top center; 
+            }
+        } 
+      }
+    }
+
+    
+    .stories-theme2-picker-item {
+      display: inline-block;
+      position: relative;
+      width: 200px; 
+      height: 300px;
+      margin: 5px;
+      overflow: hidden;
+      box-sizing: content-box;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px; 
+    } 
+
+    &::-webkit-scrollbar {
+      height: 4px;
+      background-color: #F5F5F5;
+    }
+     
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: rgba(0,0,0,0.1);
+      border: 1px solid #ccc;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: linear-gradient(left, #fff, #e4e4e4);
+      border: 4px solid #aaa;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+      background: #fff;
+    }
+    
+    &::-webkit-scrollbar-thumb:active {
+      background: linear-gradient(left, #22ADD4, #1E98BA);
+    }
+  }
+
+} 
+
+.stories-input-descriptions {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 22px;
+  color: #888;
+  font-size: 10px;
+}
+  
+.stories-settings-preview-title{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: #888;
+  font-size: 24px; 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');

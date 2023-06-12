@@ -1,0 +1,61 @@
+export const LOADING_ERROR = 'LOADING_ERROR';
+export const HIDE_LANDING = 'HIDE_LANDING';
+
+export const CONFIG_LOAD = 'CONFIG_LOAD';
+export const SET_DATA = 'SET_DATA';
+
+export const CHANGE_THEME = 'CHANGE_THEME';
+export const CHANGE_BACKGROUND = 'CHANGE_BACKGROUND';
+export const CHANGE_BUTTON_COLOR = 'CHANGE_BUTTON_COLOR';
+
+export const EDIT_STORY = 'EDIT_STORY';
+export const REMOVE_STORY = 'REMOVE_STORY';
+export const ROTATE_STORY = 'ROTATE_STORY';
+
+export const UPDATE_CONFIG_AVATAR = 'UPDATE_CONFIG_AVATAR';
+
+export const EDIT_BLOCK = 'EDIT_BLOCK';
+export const REMOVE_BLOCK = 'REMOVE_BLOCK';
+export const ROTATE_BLOCK = 'ROTATE_BLOCK';
+
+export const EDIT_CATALOG = 'EDIT_CATALOG';
+export const REMOVE_CATALOG  = 'REMOVE_CATALOG';
+export const ROTATE_CATALOG  = 'ROTATE_CATALOG';
+
+export const EDIT_AD = 'EDIT_AD';
+export const REMOVE_AD = 'REMOVE_AD';
+
+export const EDIT_MESSENGERS_DATA = 'EDIT_MESSENGERS_DATA';
+export const EDIT_SOCIAL_DATA = 'EDIT_SOCIAL_DATA';
+
+export const UPDATE_CONFIG_DATA = 'UPDATE_CONFIG_DATA';
+
+export const UPDATE_ALL_DATA = 'UPDATE_ALL_DATA';
+
+export const SAVE_DATA = 'SAVE_DATA';
+export const DATA_ALREADY_SAVED = 'DATA_ALREADY_SAVED';
+
+export const REGISTER_USER = 'REGISTER_USER';
+export const USER_REGISTERED = 'USER_REGISTERED';
+
+export const EDIT_RSS_DATA = 'EDIT_RSS_DATA';
+
+export const SET_INSTAGRAM_FEED = 'SET_INSTAGRAM_FEED';
+
+export const SET_YOUTUBE_FEED = 'SET_YOUTUBE_FEED';
+
+export const IMAGE_UPLOADED = 'IMAGE_UPLOADED';
+
+export const IMAGE_STORY_UPLOADED = 'IMAGE_STORY_UPLOADED';
+
+export const IMPORT_CATALOG = 'IMPORT_CATALOG';
+
+export const CATALOG_ORDER = 'CATALOG_ORDER';
+
+export const CATALOG_PLAY = 'CATALOG_PLAY';
+
+export const CATALOG_PAUSE = 'CATALOG_PAUSE';
+
+export const CATALOG_NEXT = 'CATALOG_NEXT';
+
+export const CATALOG_FILTER = 'CATALOG_FILTER';

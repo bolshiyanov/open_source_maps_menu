@@ -1,0 +1,50 @@
+footer {
+  text-align: center;
+}
+
+    .footer-brends-box-items {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px 30%;
+    }
+
+    .footer-brends-box-items-icon-icon {
+        font-size: 38px;
+      }
+
+      .textlogofooter {
+          background-color: rgba(255, 255, 255, 0.5);
+          padding: 2px 4px;
+          border-radius: 8px;
+          font-size: 10px;
+          text-decoration: none;
+          color: black;
+          text-transform: uppercase;
+          margin-left: 12px;
+          margin-right: 12px;
+
+        }
+        .textlogofooter1 {
+          font-size: 10px;
+          text-decoration: none;
+          color: black;
+          text-transform: uppercase;
+          margin-left: 12px;
+          margin-right: 12px;
+
+        }
+
+        .footer-brends-box-items-position-absolut {
+         width: 100%;
+          position: absolute;
+          bottom: -8px;
+          color: white;
+        }
+    
+       
+
+    
+    
+  
+  

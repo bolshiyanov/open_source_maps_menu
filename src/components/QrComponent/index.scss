@@ -1,0 +1,45 @@
+.qrComponents-flexBox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 290px;
+
+      &__box {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 290px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 12px;
+
+    input {
+        margin-top: 24px;
+    }
+   
+
+    a {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        padding: 6px;
+    }
+    p {
+        padding: 6px 12px 6px;
+        overflow-wrap: break-word;
+        white-space: pre-line;
+        margin: 0 12px;
+       
+         }
+    }
+}
+
+.linkQr {
+    word-break: break-all;
+    color: blue;
+    font-size: 12px;
+             
+    }

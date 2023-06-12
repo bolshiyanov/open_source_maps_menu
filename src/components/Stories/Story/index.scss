@@ -1,0 +1,153 @@
+.story-theme2-picture {
+    flex-grow: 1;
+    margin: 12px 0;
+    width: 200px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    
+  
+    &__box {
+        height: 300px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+        border-radius: 15px;
+        background: {
+            size: cover;
+            repeat: no-repeat;
+            position: top center; 
+          };
+        } 
+        &__number { 
+          color: white;
+          mix-blend-mode: difference;
+        }
+    }
+
+
+  
+.story-theme2-picture-title {
+  text-align: left;
+  width: 200px;
+  height: 80px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  white-space: pre-line;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+.story-items-count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 244px;
+  right: 4px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: #1d90ff 2px solid;
+  color: black;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 0 2px 0; 
+  z-index: 1
+  }
+
+  .story-items-count-selected {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 244px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: #ff1d99 3px solid;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 0 2px 0; 
+    z-index: 1
+    
+    }
+
+    .story-photo-png {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: 4px;
+    width: 190px;
+    height: 190px;
+    opacity: .5;
+    z-index: 1;
+    background: {
+      size: cover;
+      repeat: no-repeat;
+      position: top center; 
+    };
+
+  }
+
+  .story-button-move-left {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4px;
+    left: 4px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color: #1d90ff;
+    cursor: pointer;
+    z-index: 1;
+
+    &__icon {
+      font-size: 40px;
+    }
+  }
+
+  .story-button-move-right {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color: #1d90ff;
+    cursor: pointer;
+    z-index: 1;
+
+    &__icon {
+      font-size: 40px;
+    }
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');

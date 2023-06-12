@@ -1,0 +1,56 @@
+.messengers {
+  margin: 12px 6px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+  .messenger {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0 6px 12px;
+    min-width: calc(30% - 12px);
+    
+    .icon {
+      font-size: 36px;
+    }
+    
+    &__button {
+      flex-grow: 1;
+      min-height: 62px;
+
+      &.tech-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row nowrap;
+        margin: 0px 6px 0px;
+      
+        span {
+          font-size: 28px;
+          font-weight: 500;
+        }
+  
+        .icon {
+          font-size: 36px;
+          margin-right: 24px;
+        }
+      }
+    }
+
+  }
+
+  .messenger-tech {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0 6px 12px;
+    width: 65px;
+    max-width: 65px;
+    border: 1px dashed;
+    box-shadow: none;
+
+    .icon {
+      font-size: 36px;
+    }
+  }  
+}

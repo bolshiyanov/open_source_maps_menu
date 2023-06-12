@@ -1,0 +1,231 @@
+.payment  {
+    margin: -12px 6px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    
+  
+  &__close {
+    position: absolute;
+    top: 18px;  
+    right: 12px;
+    color: white;
+    opacity: 0;
+  }
+  
+  .tariffs {
+    padding: 0 24px 24px;
+    width: 100%;
+   
+    
+    &__terms {
+      margin-top: 24px;
+    }
+    
+    &__button {
+      width: 100%;
+      margin: 0 auto 12px;
+      background-color: #1d90ff;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    &__header {
+      font-size: 24px;
+      text-align: left;
+    }
+    
+    &__subtitle {
+      font-size: 20px;
+      text-align: left;
+      font-weight: normal;
+      color: #888;
+    }
+    
+    &__container {
+
+    }
+
+    &__block {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      position: relative;
+      max-width: 100%;
+      
+      &__title {
+        position: absolute;
+        white-space: nowrap;
+        text-align: center;
+        top: 12px;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        &__lang {
+          font-size: 8px;
+          margin-top: -6px;
+          color: #888;
+          text-transform: lowercase;
+        };
+      }
+    }
+
+    &__item {
+      flex-grow: 1;
+      margin-right: 2px;
+      min-width: 33%;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      &__title {
+        background-color: red;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin-bottom: 24px;
+      }
+      
+      &__price {
+        text-align: center;
+        padding: 48px 0 20px;
+        border-bottom: 1px solid #aaa;
+      }
+      
+      &__selected {
+        &.tariffs__item__check__good {
+          color: green;
+        }
+        &.tariffs__item__check__bad {
+          color: red;
+        }
+        
+        &__title {
+          .tariffs__item__title {
+            background-color: green;
+            position: relative;
+            &::after {
+              content: '';
+              width: 0;
+              height: 0;
+              border: 20px solid green;
+              border-top: 0;
+              border-left: 0;
+              position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translate(-50%, 0) rotate(45deg);
+            }
+          }
+        }
+        .tariffs__item__price {
+          color: green;
+          font-weight: bold;
+        }
+      }
+      
+      &__check {
+        flex-grow: 1;
+        margin-right: 2px;
+        min-width: 33%;
+        padding: 48px 0 20px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #aaa;
+        
+        &__good {
+          color: #888;
+        }
+        
+        &__bad {
+          color: #888;
+        }
+      }
+    }
+  }
+  
+  &__register__container {
+    background: {
+      position: center bottom;
+      size: cover;
+      repeat: no-repeat;
+    }
+
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: flex-end;
+    flex-flow: column nowrap;
+  }
+  
+  &__register {
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-flow: column nowrap;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 0 0 24px;
+    flex-grow: 1;
+    
+    &__block {
+      padding: 12px;
+      background-color: rgba(0, 0, 0, .6);
+      margin: 12px 24px 24px;
+    }
+    
+    &__subtitle {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 18px;
+      padding: 0 12px;
+      box-sizing: border-box;
+    }
+    
+    &__header {
+      text-align: center;
+      width: 100%;
+      font-size: 22px;
+      margin-bottom: 24px;
+      padding: 0 12px;
+      box-sizing: border-box;
+    }
+    
+    &__item {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 12px;
+      
+      input {
+        width: 100%;
+        margin: 12px 0;
+      }
+      
+      &__agreement {
+        margin-top: 12px;
+        a {
+          color: #fff;
+        }
+      }
+    }
+    
+    &__button {
+      margin: 0 auto 64px;
+      width: calc(100% - 24px);
+      background-color: red;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+  }
+}

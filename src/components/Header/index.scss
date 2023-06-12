@@ -1,0 +1,178 @@
+.header-dilimiter {
+  width: 100%;
+  height: 14px;
+  background-color: red;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 4px 4px 0 0;
+  align-items: center;
+  max-width: 100%;
+  
+  
+  .avatar {
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+  }
+
+  .user-name {
+    text-transform: uppercase ;
+    padding-left: 8px;
+    padding-top: 6px; 
+    word-break: break-all;
+    max-width: 40%;
+    
+    font-family: 'Oswald', sans-serif;
+  }
+
+}
+
+h4 {
+  font-size: 1em;
+  display: block;
+  font-weight: 400;
+  margin: 8px 4px 0 ;
+  padding: 0 12px;
+  
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.advanced-settings {
+  display: block;
+  max-width: 100%;
+  
+  .horizontal-picker {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+    .picker__item {
+      display: inline-block;
+    }
+  }
+}
+
+.pulse2 {
+    animation: 2s pulsar2 0.8s infinite linear;
+  }
+
+
+@keyframes pulsar2 {
+  from {
+    transform: scale3d(2, 2, 2);
+  }
+  2%, 4% {
+    transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 2, -1deg);
+  }
+  6%, 10%, 14%, 18% {
+    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 2, 1deg);
+  }
+  8%, 12% {
+    transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 2, -1deg);
+  }
+  20%, to {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+}
+
+.admin-notification {
+  background-color: white;
+  height: 14px;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+  &__blink5 {
+    -webkit-animation: blink5 2s linear infinite;
+    animation: blink5 2s linear infinite;
+    height: 14px;
+    width: 100%;
+    background-color: #1d90ff;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+ 
+  
+  @-webkit-keyframes blink5 {
+    0% { color: red; }
+    50% { color: white; }
+    100% { color: red; }
+  }
+  @keyframes blink5 {
+    0% { color: red; }
+    50% { color:white; }
+    100% { color: red; }
+  }
+}
+  
+}
+
+
+
+.icon-header-padding{
+  padding-left: 8px;
+
+  &__text-b {
+    display: inline;
+    font-size: 24px;
+  }
+}
+
+.icon-header-padding-blink {
+  padding-left: 8px; 
+  -webkit-animation: blink 2s linear infinite;
+  animation: blink5 2s linear infinite;
+  text-align: center;
+  z-index: 5;
+
+
+@-webkit-keyframes blink {
+  0% { color: red; }
+  50% { color: white; }
+  100% { color: red; }
+}
+@keyframes blink {
+  0% { color: red; }
+  50% { color:white; }
+  100% { color: red; }
+}
+
+}
+
+.orange {
+  color: orangered !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.business-picker {
+  height: 70px;
+  width: 70px; 
+  margin: 4px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  background: {
+      size: cover;
+      repeat: no-repeat;
+      position: top center; 
+    }
+  } 
+
+ 

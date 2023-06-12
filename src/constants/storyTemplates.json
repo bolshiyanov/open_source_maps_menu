@@ -1,0 +1,428 @@
+[  {
+  "id": 1, 
+  "name": "BREAKFAST",
+  "nameEn": "BREAKFAST",
+  "imageUrl": "https://sweety.link/content/img/templates/English-breakfast-min.png",
+  "docId": "1KNK5lx_an144oRzmsS19HqF-O7b62VtWb_GnH4HdjgE"
+}, {
+  "id": 2, 
+  "name": "TAPAS",
+  "nameEn": "TAPAS",
+  "imageUrl": "https://sweety.link/content/img/templates/Tapas-min.png",
+  "docId": "1DpOYyWqDxndT642cwYMfYa46GB0NHTLWftEPxQ_MgUU"
+}, {
+  "id": 3, 
+  "name": "PIZZA",
+  "nameEn": "PIZZA",
+  "imageUrl": "https://sweety.link/content/img/templates/Pizzas-min.png",
+  "docId": "1-t1kIRPoZyCCDjcaj4ibNCIMyplr0uRAEA88BiHlQfQ"
+}, {
+  "id": 4, 
+  "name": "FOCACCIAS",
+  "nameEn": "FOCACCIAS",
+  "imageUrl": "https://sweety.link/content/img/templates/Focaccia-min.png",
+  "docId": "1kWUVvDM1CAMzPPz5yM0f0UhKuNo_fQG9GZxTCVXNBFM"
+}, {
+    "id": 5, 
+    "name": "BAGUETTE", 
+    "nameEn": "BAGUETTE", 
+    "imageUrl": "https://sweety.link/content/img/templates/Baguete-min.png", 
+    "docId": "1sRQ4mQGBZF_I8tIntZDWTYIti3qgw8Q4jG3CPVjXFyU"
+  }, {
+    "id": 6, 
+    "name": "PANINI",
+    "nameEn": "PANINI",
+    "imageUrl": "https://sweety.link/content/img/templates/panini-min.png",
+    "docId": "1JyWAD4hSygb_W0vx74MJvY0GC-YjXB0pLR-Xdo48cpI"
+  }, {
+    "id": 7, 
+    "name": "SANDWICHES",
+    "nameEn": "SANDWICHES",
+    "imageUrl": "https://sweety.link/content/img/templates/Sandwich-min.png",
+    "docId": "14ITIJx7Qppu3v1R7I3j1RC67M5lKlDMorFxVV39tn_k"
+  }, {
+    "id": 8, 
+    "name": "CROISSANTS",
+    "nameEn": "CROISSANTS",
+    "imageUrl": "https://sweety.link/content/img/templates/Croissant-min.png",
+    "docId": "1eF5xeJrkMEKVBPpuv-NeOQJOzQY57uD9zDKfqYFcUvM"
+  }, {
+    "id": 9, 
+    "name": "TOASTS",
+    "nameEn": "TOASTS",
+    "imageUrl": "https://sweety.link/content/img/templates/Toasts-min.png",
+    "docId": "1n3FgLLfMAPNFtXL-pRTlwDqPv1Z2nPgupjdmT9hzBbQ"
+  }, {
+    "id": 10, 
+    "name": "WRAPS",
+    "nameEn": "WRAPS",
+    "imageUrl": "https://sweety.link/content/img/templates/Wraps-min.png",
+    "docId": "1BhHZWsB0NToQadLxVxpq0Jv02XOIy7oi3D4W6bMUn3g"
+  }, {
+    "id": 11, 
+    "name": "HAMBURGER",
+    "nameEn": "HAMBURGER",
+    "imageUrl": "https://sweety.link/content/img/templates/Burger-min.png",
+    "docId": "1Chnc8cyQdRDVuXCPfSQMvZEuB7z2hMA7K4XpBPWDEzk"
+  }, {
+    "id": 12, 
+    "name": "HOT-DOG",
+    "nameEn": "HOT-DOG",
+    "imageUrl": "https://sweety.link/content/img/templates/hot-dog-min.png",
+    "docId": "1a422mIK3LOTux3tdI8csGLHXuN8G4eB6OMOx0qPRDCA"
+  }, {
+    "id": 13, 
+    "name": "NACHOS",
+    "nameEn": "NACHOS",
+    "imageUrl": "https://sweety.link/content/img/templates/nachos-min.png",
+    "docId": "1CNxAKbg3KvFknDKqzWmzPyd-yQV6QRVLGgmyJI5pnMM"
+  }, {
+    "id": 14, 
+    "name": "TACOS",
+    "nameEn": "TACOS",
+    "imageUrl": "https://sweety.link/content/img/templates/tacos-min.png",
+    "docId": "1xoU0FRcJ-ejraLB5z3oCJxVJ-AmyuTPANFj1e3Liaik"
+  }, {
+    "id": 15, 
+    "name": "AREPAS",
+    "nameEn": "AREPAS",
+    "imageUrl": "https://sweety.link/content/img/templates/arepamin.png",
+    "docId": "19gVU6jQcZt1FCwubxcJ9kkVUbuTrRoBmWwx5gBh9Tbw"
+  }, {
+    "id": 16, 
+    "name": "CACHAPAS",
+    "nameEn": "CACHAPAS",
+    "imageUrl": "https://sweety.link/content/img/templates/cachapasmin.png",
+    "docId": "1kKz8rDph2Wu0bV2PkF24oQh_tWp4wLOxGJKipesfsM8"
+  }, {
+    "id": 17, 
+    "name": "MONTADIOS",
+    "nameEn": "MONTADIOS",
+    "imageUrl": "https://sweety.link/content/img/templates/montadios-min.png",
+    "docId": "1bX9L9lJnn2ujVgrUkoSp8rKt1St5sqrVBix3tshW7CA"
+  }, {
+    "id": 18, 
+    "name": "PASTA",
+    "nameEn": "PASTA",
+    "imageUrl": "https://sweety.link/content/img/templates/pasta-min.png",
+    "docId": "1N-tB-AFKNUznL4WiR6KmKQCyF2UtnPeL87LJmnNZ1Jw"
+  }, {
+    "id": 19, 
+    "name": "CHILDREN'S MENU",
+    "nameEn": "CHILDREN'S MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/children-menu-min.png",
+    "docId": "16WPuq5yF-z8XMbLJBOK9wsd9ijB9sjES--O2p1PverE"
+  }, {
+    "id": 20, 
+    "name": "CHIPS",
+    "nameEn": "CHIPS",
+    "imageUrl": "https://sweety.link/content/img/templates/chips-min.png",
+    "docId": "1cW6Qt13APlqHjmWynwkYCmBjK8L9-U0K0aX9zdKty2M"
+  }, {
+    "id": 21, 
+    "name": "JAKET POTATOES",
+    "nameEn": "JAKET POTATOES",
+    "imageUrl": "https://sweety.link/content/img/templates/jacket-potatos-min.png",
+    "docId": "1sHC01qUCVz9oRID4zqKbI2pJRan-LCUAmCdEYXhfoSE"
+  }, {
+    "id": 22, 
+    "name": "OMLETTE",
+    "nameEn": "OMLETTE",
+    "imageUrl": "https://sweety.link/content/img/templates/Omlettes-min1.png",
+    "docId": "1YMJyB3xjSogvYOemekm0iospRsZsUqKOvMsdW_TNAIs"
+  }, {
+    "id": 23, 
+    "name": "PAELLA",
+    "nameEn": "PAELLA",
+    "imageUrl": "https://sweety.link/content/img/templates/paella-min.png",
+    "docId": "1qNaU9uaUD9jaukxfZGf8dX5YAX0MCxGHI_hdbTCQrxA"
+  }, {
+    "id": 24, 
+    "name": "STARTERS",
+    "nameEn": "STARTERS",
+    "imageUrl": "https://sweety.link/content/img/templates/starters-min.png",
+    "docId": "1SPdaIe71xMQirOEXV3LwXt7D82jmLh13VOAvL85IkAc"
+  }, {
+    "id": 25, 
+    "name": "SALADAS",
+    "nameEn": "SALADAS",
+    "imageUrl": "https://sweety.link/content/img/templates/Saladas-min.png",
+    "docId": "13uhuv0YbTTki5rw2VajDQkPrf_XS7r4idwiSMnamTLU"
+  }, {
+    "id": 26, 
+    "name": "MAIN DISHES",
+    "nameEn": "MAIN DISHES",
+    "imageUrl": "https://sweety.link/content/img/templates/main-dishes-min.png",
+    "docId": "16CkuGDZ6colaY3Qj0tBUsDYPIPjF2znsi4Xs8eec79o"
+  }, {
+    "id": 27, 
+    "name": "COFFEE",
+    "nameEn": "COFFEE",
+    "imageUrl": "https://sweety.link/content/img/templates/Coffee-min.png",
+    "docId": "13B_kEJB_YL0YEm6Ge7QMJ9BcjFvVfpYweivoMxX3-X4"
+  }, {
+    "id": 28, 
+    "name": "TEA",
+    "nameEn": "TEA",
+    "imageUrl": "https://sweety.link/content/img/templates/tea-min.png",
+    "docId": "1lAMQPmRErn6gSuQJbxeZCPRlgFUXih8irKNzCzIcHPM"
+  }, {
+    "id": 29, 
+    "name": "DESSERTS",
+    "nameEn": "DESSERTS",
+    "imageUrl": "https://sweety.link/content/img/templates/deserts-min.png",
+    "docId": "1qWNpYlRY-sIGGoLDZgtHjDANWny_Hqa-3UUY3IZMEJ4"
+  }, {
+    "id": 30, 
+    "name": "WAFFLES",
+    "nameEn": "WAFFLES",
+    "imageUrl": "https://sweety.link/content/img/templates/Waffles-min.png",
+    "docId": "1CPnXkUy0lLgLATw9kzuETfWcYULP6z7-tnBH2oKDDuk"
+  }, {
+    "id": 31, 
+    "name": "YOGURTS",
+    "nameEn": "YOGURTS",
+    "imageUrl": "https://sweety.link/content/img/templates/yogurt-min.png",
+    "docId": "1sc4MGwakhTNhewOJHmt-U2WWGAg6se3MGAXr7RlXRPM"
+  }, {
+    "id": 32, 
+    "name": "MILKSHAKE",
+    "nameEn": "MILKSHAKE",
+    "imageUrl": "https://sweety.link/content/img/templates/milkshake-min.png",
+    "docId": "1XrhSV-lsH3rR50DbsQ1mQ_WKZxobAYQHm9SxzdiEUIM"
+  }, {
+    "id": 33, 
+    "name": "SMOOTHIES",
+    "nameEn": "SMOOTHIES",
+    "imageUrl": "https://sweety.link/content/img/templates/Smoothies-min.png",
+    "docId": "13HkJiRp9OU6HDo6jB3qANavkqgaPxaPhk8c0cZstBhM"
+  }, {
+    "id": 34, 
+    "name": "JUICES",
+    "nameEn": "JUICES",
+    "imageUrl": "https://sweety.link/content/img/templates/juces-min.png",
+    "docId": "13XKpQ2Je5YBDWr4X3DTmy7Suhh8h_GmQ0Dg-Tl5g6Ew"
+  }, {
+    "id": 35, 
+    "name": "SOFT DRINKS",
+    "nameEn": "SOFT DRINKS",
+    "imageUrl": "https://sweety.link/content/img/templates/Soft-drinks-min.png",
+    "docId": "11m0oNedtp52RhTz7Eur83igb2ebwlKtmSxNnsG-zhPY"
+  }, {
+    "id": 36, 
+    "name": "COCTAILS",
+    "nameEn": "COCTAILS",
+    "imageUrl": "https://sweety.link/content/img/templates/Coctails-min.png",
+    "docId": "1vznhqL7F_mLOeJ0ANAf9lT7NdiV-aREYQqFI36mh7iA"
+  }, {
+    "id": 37, 
+    "name": "CIDERS",
+    "nameEn": "CIDERS",
+    "imageUrl": "https://sweety.link/content/img/templates/ciders-min.png",
+    "docId": "1rEBj5t8uYdf6Iyp0_Qr2AGMi9mgFODXGUudc-YyBzDQ"
+  }, {
+    "id": 38, 
+    "name": "BEER",
+    "nameEn": "BEER",
+    "imageUrl": "https://sweety.link/content/img/templates/beer-min.png",
+    "docId": "1djoGHOcEaDDI8-kNSgcmJo7avzNWTwI-NzwSoGtGecA"
+  }, {
+    "id": 39, 
+    "name": "APERETIVES",
+    "nameEn": "APERETIVES",
+    "imageUrl": "https://sweety.link/content/img/templates/Apperetivs-min.png",
+    "docId": "1gGuvYWLDJxuO3BkvWBToiV1O4lJlejBy_knkYN03L38"
+  }, {
+    "id": 40, 
+    "name": "COGNAC & BRANDY",
+    "nameEn": "COGNAC & BRANDY",
+    "imageUrl": "https://sweety.link/content/img/templates/Brandy-min.png",
+    "docId": "1d8P5qyyM7L6dUsBf_CLr20UF4wP4yA1xi1LgtCM5sQo"
+  }, {
+    "id": 41, 
+    "name": "CHAMPAGNE",
+    "nameEn": "CHAMPAGNE",
+    "imageUrl": "https://sweety.link/content/img/templates/champagne-min.png",
+    "docId": "1LAgLTxqj7hqt551vL3jU32FvWttIBsvySyaDEL7R5dQ"
+  }, {
+    "id": 42, 
+    "name": "GIN",
+    "nameEn": "GIN",
+    "imageUrl": "https://sweety.link/content/img/templates/gin-min.png",
+    "docId": "1W41VZn0dWE6H4zKNxxFHgJxQjPeeB9Wz0QhpaDwHbAk"
+  }, {
+    "id": 43, 
+    "name": "LICORES",
+    "nameEn": "LICORES",
+    "imageUrl": "https://sweety.link/content/img/templates/licores-min.png",
+    "docId": "1lHijA_cnFiZSDEfNN-K7fJbLHMPVqoRzUeRfsPbPdH0"
+  }, {
+    "id": 44, 
+    "name": "RUM",
+    "nameEn": "RUM",
+    "imageUrl": "https://sweety.link/content/img/templates/rums-min.png",
+    "docId": "1PgebnEzR81YFK0fM2fWgChTmJVFhPC94qkDAGAt4LUo"
+  }, {
+    "id": 45, 
+    "name": "SANGRIA",
+    "nameEn": "SANGRIA",
+    "imageUrl": "https://sweety.link/content/img/templates/sangria-min.png",
+    "docId": "1cvUbNfu0bdiEfmFsnZf_NW1yA5tQMGhsIKf9lqQm1Lw"
+  }, {
+    "id": 46, 
+    "name": "RED VINOS",
+    "nameEn": "RED VINOS",
+    "imageUrl": "https://sweety.link/content/img/templates/vino-red-min.png",
+    "docId": "1taN9jnzhLH73tKZtCaU8NgkUdWSW1gv9JYWeU3ki5yk"
+  }, {
+    "id": 47, 
+    "name": "ROSE VINOS",
+    "nameEn": "ROSE VINOS",
+    "imageUrl": "https://sweety.link/content/img/templates/rose-vinos-min.png",
+    "docId": "1vZ1gL8VDrndSPf18YvQ7pmVRFscvHhVEc7D09AnQyiI"
+  }, {
+    "id": 48, 
+    "name": "WHITE VINOS",
+    "nameEn": "WHITE VINOS",
+    "imageUrl": "https://sweety.link/content/img/templates/white-vino-min.png",
+    "docId": "1-tuchQRv5TRraN9aZ6MjzdvPek2msqIiQD9ObmRc3WA"
+  },  {
+    "id": 49, 
+    "name": "SHOTS",
+    "nameEn": "SHOTS",
+    "imageUrl": "https://sweety.link/content/img/templates/shots-min.png",
+    "docId": "1guOnH0Yfz6Nk0sz0_gaUMltCVliHKdfJdsnOTA5YFWc"
+  }, {
+    "id": 50, 
+    "name": "VODKA",
+    "nameEn": "VODKA",
+    "imageUrl": "https://sweety.link/content/img/templates/vodka-min.png",
+    "docId": "1FGtBiCIVLlY8mHqKOKSzakE_U2K35hg7Ja6gfSfXmIY"
+  }, {
+    "id": 51, 
+    "name": "WHISKY",
+    "nameEn": "WHISKY",
+    "imageUrl": "https://sweety.link/content/img/templates/whisky-min.png",
+    "docId": "1lWh2Vm60WUrQ2Su77BFXTqZNwAJid0gW02xWbEkU-fY"
+  }, {
+    "id": 52, 
+    "name": "SISHA",
+    "nameEn": "SISHA",
+    "imageUrl": "https://sweety.link/content/img/templates/sisha-min.png",
+    "docId": "17LIS8AfCeE4hwGDlTem3wlitGSfgGvRgm-hVZOACRV8"
+  }, {
+    "id": 53, 
+    "name": "CURRY INDIAN",
+    "nameEn": "CURRY INDIAN",
+    "imageUrl": "https://sweety.link/content/img/templates/curry.png",
+    "docId": "13N9D0-kx7yWVOTTPNQtSuuUgnZOL3SDobdN5oVQQH1A"
+  }, {
+    "id": 54, 
+    "name": "BRIANI INDIAN",
+    "nameEn": "BRIANI INDIAN RICE",
+    "imageUrl": "https://sweety.link/content/img/templates/briani.png",
+    "docId": "1dzP70G4bnyw6vTOhB42PIlnDJFxyqirDnvNVBpXipdI"
+  }, {
+    "id": 55, 
+    "name": "VEGAN INDIAN MENU",
+    "nameEn": "VEGAN INDIA MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/vegan-min.png",
+    "docId": "1tOS81NhrBJHZ-wO5I4_xEkoaSMdriuYTHmbkAIT4eaU"
+  }, {
+    "id": 56, 
+    "name": "APPETIZERS INDIAN MENU",
+    "nameEn": "APPETIZERS INDIA MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/appertizers_india-min.png",
+    "docId": "1Lv5LakCeKE7jXDfYq20jpGLYcx4gqD6M0gYI7tuN7w8"
+  }, {
+    "id": 57, 
+    "name": "SPECIAL INDIAN MENU",
+    "nameEn": "SPECIAL INDIAN MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/special_india_menu-min.png",
+    "docId": "1ZMs1_Eo4SXINV392O5yK69cq3YiwZjrP9n5UgaKnC14"
+  }, {
+    "id": 58, 
+    "name": "INDIAN SARTERS",
+    "nameEn": "INDIAN SARTERS",
+    "imageUrl": "https://sweety.link/content/img/templates/Starters-min.png",
+    "docId": "1zUiN8VxMRIT5bRH96WR7ytvWeMAdtYchVsBDQ_rCy6E"
+  }, {
+    "id": 59, 
+    "name": "TANDOORI SIZZLERS",
+    "nameEn": "TANDOORI SIZZLERS",
+    "imageUrl": "https://sweety.link/content/img/templates/tandorri-min.png",
+    "docId": "1sznwThq2QXb4W2zBajDBPF0Rz-o16V4WULvLov1rYl4"
+  }, {
+    "id": 60, 
+    "name": "INDIAN RICE",
+    "nameEn": "INDIAN RICE",
+    "imageUrl": "https://sweety.link/content/img/templates/indian_rice-min.png",
+    "docId": "1jZ4nCaDcQstjUH2QK5bJ_O66dP1Z8l-Wmge_tH_-EDg"
+  }, {
+    "id": 61, 
+    "name": "INDIAN NAAN",
+    "nameEn": "INDIAN NAAN",
+    "imageUrl": "https://sweety.link/content/img/templates/naan-min.png",
+    "docId": "1Ze3sAPNPXUtkNMqsAiSqH2hMywzzAAAMV4j6DGCzH68"
+  }, {
+    "id": 62, 
+    "name": "FAST FOOD SETS",
+    "nameEn": "FAST FOOD SETS",
+    "imageUrl": "https://sweety.link/content/img/templates/fast_food_sets.png",
+    "docId": "10pfZfFZkme40sI6CR9NwaR0LlGs8Q5sLFTZoz7UmCJ0"
+  }, {
+    "id": 63, 
+    "name": "COMBINED DISHES",
+    "nameEn": "COMBINED DISHES",
+    "imageUrl": "https://sweety.link/content/img/templates/3063-min.png",
+    "docId": "1klUUpT_mMUDcFKiDvGxBXKbZ6ff7QsdIp7Fwy6Wx_y4"
+  }, {
+    "id": 64, 
+    "name": " PITA BREAD",
+    "nameEn": " PITA BREAD",
+    "imageUrl": "https://sweety.link/content/img/templates/3064-min.png",
+    "docId": "1Aa3V9azTS9GAND6BvV0WJZQ2RC3fqvpPMjQvRp1VerI"
+  }, {
+    "id": 65, 
+    "name": "WRAP MENU",
+    "nameEn": "WRAP MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/3065-min.png",
+    "docId": "1ZpjOPuuyUE9_yiYrcS0Vt5bhi8sj7kEXxASuJsjez6g"
+  }, {
+    "id": 66, 
+    "name": "FISH AND CHIPS",
+    "nameEn": "FISH AND CHIPS",
+    "imageUrl": "https://sweety.link/content/img/templates/3066-min.png",
+    "docId": "1jMcxHZUPblt_avnLQqB3yT3FSn9CCmO8i44mxksQt8k"
+  }, {
+    "id": 67, 
+    "name": "BURGER MENU",
+    "nameEn": "BURGER MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/3067-min.png",
+    "docId": "1GxteiaeAHc4x0rnnUR5e2MNCw8c6CncEwhDHA3xkwwE"
+  }, {
+    "id": 68, 
+    "name": "CHIPS MENU",
+    "nameEn": "CHIPS MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/3068-min.png",
+    "docId": "1MTVWFtImatoOWo_4JwsvO6lSs45dVQU6j60BiVoTqCE"
+  }, {
+    "id": 69, 
+    "name": "SNACK MENU",
+    "nameEn": "SNACK MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/3069-min.png",
+    "docId": "19VD5ErjBJrRR8yFsuOejKCmVR8ig4HBtHSdPAM-KMM8"
+  }, {
+    "id": 70, 
+    "name": "PIZZA MENU",
+    "nameEn": "PIZZA MENU",
+    "imageUrl": "https://sweety.link/content/img/templates/3070-min.png",
+    "docId": "1PHCg1fYn1OlU9B4EenvA7D0g6kmn8R1PWjQW69Q-MUQ"
+  }, {
+    "id": 71, 
+    "name": "POD",
+    "nameEn": "POD",
+    "imageUrl": "https://sweety.link/content/img/templates/pod.png",
+    "docId": "1oZ9vKMbFMIRU1WChijRGtmlWfGQtcrLwAej218w4l0E"
+  }
+]

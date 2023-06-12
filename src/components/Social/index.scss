@@ -1,0 +1,44 @@
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 12px 0 ;
+  
+  &__item {
+    margin: 12px 8px;
+    flex-shrink: 1;
+    width: 60px;
+  }
+
+  &__item-tech {
+    flex-shrink: 1;
+    width: 60px;
+    border: 1px dashed;
+    box-shadow: none !important;
+    position: absolute;
+    right: 20px;
+  }
+
+  &__button {
+    &.tech-button {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row nowrap;
+      width: calc(100% - 24px);
+      
+      span {
+        font-size: 28px;
+        font-weight: 500;
+      }
+  
+      .icon {
+        font-size: 36px;
+        margin-right: 24px; 
+      }
+    }
+  }
+}
+

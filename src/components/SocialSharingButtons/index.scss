@@ -1,0 +1,79 @@
+.SocialSharingButtons {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .SocialSharingButtons_box {
+    margin: 12px;
+    max-width: calc(100% - 24px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .SocialSharingButtons_box_avatar {
+              width: 100px;
+              flex: initial;
+          }
+  
+  .avatar {
+    height: 76px;
+    width: 76px;
+  }
+  
+  .SocialSharingButtons_box_items {
+    display: block;
+    max-width: 100%;
+    margin-top: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .SocialSharingButtons_title {
+    max-width: 100%;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  
+  .SocialSharingButtons_container {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      height: 4px;
+      background-color: #F5F5F5;
+    }
+     
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: rgba(0,0,0,0.1);
+      border: 1px solid #ccc;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: linear-gradient(left, #fff, #e4e4e4);
+      border: 1px solid #aaa;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+      background: #fff;
+    }
+    
+    &::-webkit-scrollbar-thumb:active {
+      background: linear-gradient(left, #22ADD4, #1E98BA);
+    }
+  }
+  
+  .SocialSharingButtons__some-network {
+      margin-right: 5px;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      box-sizing: content-box;
+   }
+    

@@ -1,0 +1,110 @@
+.review-botton {
+    width: calc(100% - 24px);
+    margin: 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 50px;
+  
+    &__sub-cta {
+      font-size: 10px;
+      font-weight: 500;
+      text-transform: lowercase;
+    }
+  
+    &__linkrenderer {
+        margin-left : -5px;
+        margin-right : -12px;
+        margin-top: -2px;
+        padding: 5px 5px;
+        width: 100%;
+        border: none;
+        border-radius: 4px ;
+        overflow: hidden;
+        white-space: nowrap;
+        background-color: #fff;
+        color:  rgb(30, 144, 255);
+        font-size: 14px;
+        text-rendering: auto; 
+        cursor: text;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    &__noactive {
+      width: 100%;
+      margin: 12px 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      height: 50px;
+      background-color: #ccc; 
+    }
+  
+  }
+  
+  .review-field {
+    width: 100%;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+    min-height: 400px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    padding: 12px;
+  
+    &__title {
+      width: 100%;
+      text-align: center;
+      color: black;
+      font-size: 18px;
+      text-transform: uppercase;
+      padding: 12px;
+    }
+  
+    &__subtitle { 
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px;
+    margin-bottom: -12px;
+  
+      span {
+        color: #1d90ff;
+        font-size: 10px;
+        background-color: blanchedalmond;
+         }
+    }
+    &__under-botton {
+      font-size: 10px;
+      margin-top: -10px;
+      margin-left: 12px;
+  
+        &__noactive {
+          font-size: 10px;
+          margin-top: -10px;
+          margin-left: 12px;
+          color:red
+       }
+  
+  
+    }
+  
+  }
+  
+  .review-botton-box {
+      position: relative;
+  
+      &__arrow  {
+          position: absolute;
+          left: 10px;
+          top:-40px;
+          height: 50px;
+          width: 50px;
+          background: {
+              size: cover;
+              repeat: no-repeat;
+              position: top center; 
+            };
+          } 
+  }

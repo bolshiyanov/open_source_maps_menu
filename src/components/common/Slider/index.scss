@@ -1,0 +1,225 @@
+.slider-container {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  position: fixed;
+  padding-top: 61vh;
+  top: 1000px;
+  transition: .8s;
+  overflow-y: scroll;
+  z-index: 10;
+  margin: 0 auto;
+
+  .slider-background {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9;
+  }
+
+  &.opened {
+    top: 0;
+    position: fixed;
+    
+    .slider-background {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    &::-webkit-scrollbar {
+      width: 0px;
+      background-color: #F5F5F5;
+    }
+     
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: rgba(0,0,0,0.1);
+      border: 1px solid #ccc;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: linear-gradient(left, #fff, #e4e4e4);
+      border: 1px solid #aaa;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+      background: #fff;
+    }
+    
+    &::-webkit-scrollbar-thumb:active {
+      background: linear-gradient(left, #22ADD4, #1E98BA);
+    }
+   
+  }
+  
+  .slider { 
+    position: relative;
+    background-color: #fff;
+    z-index: 11;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: -2px -1px 10px rgba(0, 0, 0, 0.3);
+    padding: 12px 12px 64px;
+    
+    
+    &__header {
+      position: relative;
+      padding: 36px 16px 6px;
+      margin: 0 auto;
+
+      &__title {
+        width: 100%;
+        display: block;
+        text-transform: uppercase;
+        padding: 0 36px;
+        color: #333;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      &__subtitle {
+        width: 100%;
+        display: block;
+        text-transform: uppercase;
+        padding: 8px 18px 0;
+        color: #007aff;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 10px;
+
+        a {
+          color: red;
+          font-weight: 600;
+          
+        }
+      }
+      &__remove {
+        position: absolute;
+        top: 26px;
+        left: 16px;
+        font-size: 18px;
+        padding: 6px 8px;
+        background-color: red;
+        border-radius: 20px;
+        color: #fff;
+        z-index: 12;
+        
+        svg {
+          font-size: inherit;
+        }
+      }
+      &__history {
+        position: absolute;
+        top: 26px;
+        left: 16px;
+        font-size: 28px;
+        padding: 2px 8px;
+        background-color:white;
+        border-radius: 20px;
+        color: gray;
+        z-index: 12;
+        
+        svg {
+          font-size: inherit;
+        }
+      }
+
+     
+      
+
+      &__submit {
+        position: absolute;
+        top: 26px;
+        right: 16px;
+        font-size: 30px;
+        color:orange;
+        cursor: pointer;
+        z-index: 12;
+        
+        svg {
+          font-size: inherit;
+        }
+      }
+    }
+    
+    &__body {
+      padding: 0 0 24px;
+      color: #000;
+    }
+  }
+}
+
+.slider-header-submitbody-submit {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.slider-header-submit {
+  max-width: 90%;
+  top: 40px;
+  margin-bottom: 60px;
+  font-size: 25px;
+  border: 2px;
+  border-color: orange;
+  background-color: orange;
+  border-radius: 15px;
+  padding: 1px 12px 0 3px;
+  color: white;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  z-index: 12;
+
+  svg {
+   font-size: inherit;
+  }
+}
+
+.slider-header-remove {
+  max-width: 90%;
+  top: 40px;
+  margin-bottom: 60px;
+  font-size: 15px;
+  border: 2px;
+  border-color: red;
+  background-color: red;
+  border-radius: 15px;
+  padding: 3px 12px 3px 10px;
+  color: white;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  z-index: 12;
+
+  svg {
+   font-size: inherit;
+  }
+}
+
+.slider-header-submitbody-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.slider-header-submit {
+  background-color: orange;
+  color: #fff;
+  flex-grow: 1;
+  text-transform: uppercase;
+  z-index: 12;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: .4s;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 16px ;
+  margin-bottom: 100px;
+
+svg {
+font-size: inherit;
+}
+}
+
+

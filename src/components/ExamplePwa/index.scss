@@ -1,0 +1,9 @@
+.horizontal-picker {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+    .business-picker{
+      display: inline-block;
+    }
+  }

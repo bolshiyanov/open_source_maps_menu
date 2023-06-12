@@ -1,0 +1,126 @@
+.show-review {
+    display: block;
+    max-width: 100%;
+    position: relative;
+
+    .show-review-picker {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+        margin-bottom: 16px;
+        
+        &__empty {
+    
+          .show-review-picker-item-flexbox {
+            display: flex;
+            flex-flow: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            
+    
+            &__icon-box {
+              position: absolute;
+              top: 0;
+              left: 0;
+              cursor: pointer;
+              height: 35px;
+              width: 35px;
+              background-color:  rgb(255, 179, 0);
+              border: 2px solid whitesmoke;
+              border-radius: 50%;
+              cursor: pointer;
+
+              &__icon {
+
+                &__check {
+                    font-size: 33px;
+                    
+                    cursor: pointer;
+                    color: green;
+                      }
+
+                &__lock {
+                    font-size: 26px;
+                    color: black;
+                    margin: 2px 0 0 4px;
+                      }
+              }
+            }
+    
+            &__title {
+              text-align: left;
+              width: 300px;
+              height: 80px;
+              border-bottom-left-radius: 15px;
+              border-bottom-right-radius: 15px;
+              border: 0;
+              border-top-right-radius: 0;
+              border-top-left-radius: 0;
+              font-size: 20px;
+              font-family: 'Russo One', sans-serif;
+              line-height: 1;
+              white-space: pre-line;
+              padding: 10px;
+              position: absolute;
+              bottom: 0;
+            }
+    
+            &__box {
+              width: 100%;
+              height: 300px;
+              border: 1px solid rgba(0, 0, 0, .2);
+              box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+              border-radius: 15px;
+    
+              background: {
+                  size: cover;
+                  repeat: no-repeat;
+                  position: top center;  
+                }
+            } 
+          }
+        }
+    
+        
+        .show-review-picker-item {
+          display: inline-block;
+          position: relative;
+          width: 300px; 
+          height: 300px;
+          margin: 5px;
+          overflow: hidden;
+          box-sizing: content-box;
+          align-items: center;
+          justify-content: center;
+          border-radius: 15px; 
+        } 
+    
+        &::-webkit-scrollbar {
+          height: 4px;
+          background-color: #F5F5F5;
+        }
+         
+        &::-webkit-scrollbar-track {
+          border-radius: 10px;
+          background: rgba(0,0,0,0.1);
+          border: 1px solid #ccc;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          background: linear-gradient(left, #fff, #e4e4e4);
+          border: 4px solid #aaa;
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+          background: #fff;
+        }
+        
+        &::-webkit-scrollbar-thumb:active {
+          background: linear-gradient(left, #22ADD4, #1E98BA);
+        }
+      }
+}

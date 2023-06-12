@@ -1,0 +1,75 @@
+.catalogItems {
+  margin: 12px 12px 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
+
+  .button-in-catalogItem {
+    
+    margin: 0 0 12px;
+    width: 100%;
+  }
+
+  .catalogItem-button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 12px;
+    min-width: calc(30% - 12px);
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+    span {
+      font-size: 28px;
+      font-weight: 500;
+    }
+    
+    .icon {
+      font-size: 36px;
+      margin-right: 24px;
+    }
+    
+    &.tech-button {
+      margin: 0;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.add-catalogItem-button {
+  position: fixed;
+  bottom: 106px;
+  right: 12px;
+  padding: 24px;
+  background-color: rgba(29, 144, 255, 1);
+  border-radius: 50%;
+  
+  box-shadow: 0 0 0 0 rgba(29, 144, 255, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  cursor: pointer;
+  
+  svg {
+    color: #fff;
+  }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(29, 144, 255, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(29, 144, 255, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(29, 144, 255, 0);
+    }
+}

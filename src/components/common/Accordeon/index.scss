@@ -1,0 +1,14 @@
+.accordeon {
+  $root: &;
+  & > &__item {
+    box-shadow: none;
+    z-index: 16;
+    
+    #{$root}__title {
+      font-weight: 600;
+      padding: 8px 24px;
+      cursor: pointer;
+      z-index: 17;
+    }
+  }
+}

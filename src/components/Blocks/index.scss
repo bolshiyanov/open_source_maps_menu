@@ -1,0 +1,141 @@
+.blocks {
+  margin: 0px 12px 6px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  &__empty {
+    position: relative;
+  }
+  
+
+
+  .block-button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 12px;
+    min-width: calc(30% - 12px);
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+    span {
+      font-size: 28px;
+      font-weight: 500;
+    }
+    
+    .icon {
+      font-size: 36px;
+      margin-right: 24px;
+    }
+    
+    &.tech-button { 
+      margin: 0;
+    }
+  }
+}
+
+.add-block-button {
+  position: fixed;
+  bottom: 106px;
+  right: 12px;
+  padding: 24px;
+  background-color: rgba(29, 144, 255, 1);
+  border-radius: 50%;
+  z-index: 2;
+  
+  box-shadow: 0 0 0 0 rgba(29, 144, 255, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  cursor: pointer;
+  
+  svg {
+    color: #fff;
+  }
+}
+
+.ad-label {
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+  margin-bottom: -5px;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(29, 144, 255, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(29, 144, 255, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(29, 144, 255, 0);
+	}
+}
+
+.box-blocks{
+  display: block;
+  overflow-x: hidden;
+  margin-top: 0px;
+
+}
+
+
+.blocks-plus-buttom {
+  position: absolute;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  padding: 4px;
+  background-color: #73b5f8 !important;
+  opacity: 0.5;
+  border-radius: 50%;
+  z-index: 3;
+  box-shadow: 0 0 0 0 #ff0000;
+  transform: scale(1);
+  animation: pulse 2s infinite; 
+}
+
+
+.blocks-empty-block-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.blocks-empty-block-text {
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 12px;
+
+}
+
+  .blocks-empty-block-bigimage {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 150px;
+    margin-bottom: 12px;
+
+    background: {
+      size: cover;
+      repeat: no-repeat;
+      position: center center;
+    }
+  }
+
+  .blocks-empty-button {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  
+
