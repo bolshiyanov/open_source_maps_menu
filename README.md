@@ -6,3 +6,5 @@ https://github.com/bolshiyanov/open_source_maps_menu/assets/77061059/5856d433-7f
 
 https://github.com/bolshiyanov/open_source_maps_menu/assets/77061059/46453ae9-a1eb-4644-b1a7-23c2dc95ec26
 
+free
+
